@@ -2,6 +2,7 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 
+
 export const SidebarData = [
     {
         title: 'Home',
@@ -13,6 +14,12 @@ export const SidebarData = [
         title: 'Products',
         path: '/products',
         icon: <FaIcons.FaCartPlus />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Contact',
+        path: '/contact',
+        icon: <AiIcons.AiOutlineContacts />,
         cName: 'nav-text'
     }
 ]
