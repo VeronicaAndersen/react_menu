@@ -7,7 +7,12 @@ const theme = {
         hover: "#b5cfcc"
     }
 };
-
+/**
+ * Styling my primary button
+ * ! Just the primary one
+ * ? Check if it´s okay colors
+ * todo: Check if it´s possible to style it globally
+ */
 const Button = styled.button`
 background-color: ${(props) => theme[props.theme].default};
 border-color:  ${(props) => theme[props.theme].border};
